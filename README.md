@@ -1,4 +1,4 @@
-<h1 align="center">🎨 تمپلیت برای پنل <a href="https://github.com/marzneshin/marzneshin" target="_blank">مرزبان</a></h1>
+<h1 align="center">🎨 تمپلیت برای پنل <a href="https://github.com/Gozargah/Marzban" target="_blank">مرزبان</a></h1>
 
 ---
 

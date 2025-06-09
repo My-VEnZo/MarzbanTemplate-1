@@ -1,27 +1,37 @@
 <h1 align="center">🎨 تمپلیت برای پنل <a href="https://github.com/Gozargah/Marzban" target="_blank">مرزبان</a></h1>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/My-VEnZo/MarzbanTemplate-1/refs/heads/main/template.png" alt="Marzban Template" style="width: 100%; height: auto;">
+</p>
+
+<hr>
 
 ## 📖 مقدمه  
-تمپلیت ساخته شده برای <strong>مرزبان</strong> که به راحتی قابل نصب و استفاده است.
+این تمپلیت برای <strong>مرزبان</strong> طراحی شده و به‌راحتی قابل نصب و استفاده است.
 
----
+<hr>
 
 ## ⚙️ نصب  
-برای نصب تمپلیت، دستورات زیر را در ترمینال سرور خود اجرا کنید:
 
-1. **دانلود فایل تمپلیت:**  
+برای نصب تمپلیت، مراحل زیر را انجام دهید:
+
+### 1. دانلود فایل تمپلیت:
 ```bash
 sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/My-VEnZo/MarzbanTemplate-1/main/index.html
 ```
-2. دستورات زیر رو تو ترمینال سرورتون بزنید:
-```sh
+
+### 2. افزودن تنظیمات مسیر به فایل `.env`:
+```bash
 echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"' | sudo tee -a /opt/marzban/.env
 echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/marzban/.env
 ```
-3. و در مرحله آخر مرزبان را ریستارت کنید
-```sh
+
+### 3. ریستارت مرزبان:
+```bash
 marzban restart
 ```
 
-🙏 با تشکر از [@yousefbn783](https://github.com/yousefbn783) بابت کمک در توسعه این پروژه.
+<hr>
+
+## 🙏 تشکر  
+با تشکر از [@yousefbn783](https://github.com/yousefbn783) بابت کمک در توسعه این پروژه.
